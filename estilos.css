@@ -23,6 +23,10 @@
 .col{display: table-cell; vertical-align: middle;}
 .text-center{text-align: center;}
 
+body{
+    margin-bottom: 5%;
+}
+
 .main-body{
     width:80%;
     margin: auto;
@@ -66,10 +70,12 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
     color:white;
     text-align: center;
+    transition: ease-in 0.1s;
 }
 .image:hover{
     border-color: black;
     transform: scale(1.1);
+    transition: ease-in 0.1s;
 }
 
 .left-img{
@@ -109,8 +115,9 @@
     background-color: grey;
     color: whitesmoke;
     opacity: 0.6;
+    transition: ease-in 0.1s;
 }
-.main-form button:hover{opacity:1; transform: scale(1.1);}
+.main-form button:hover{opacity:1; transition: ease-in 0.1s;transform: scale(1.1);}
 
 .p1-text{
     vertical-align: top;
@@ -146,6 +153,9 @@
     font-size: 120%;
 }
 
+.spacing-bot{
+    margin-bottom: 4%;
+}
 
 
 
