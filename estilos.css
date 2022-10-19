@@ -69,6 +69,7 @@
 }
 .image:hover{
     border-color: black;
+    transform: scale(1.1);
 }
 
 .left-img{
@@ -109,7 +110,7 @@
     color: whitesmoke;
     opacity: 0.6;
 }
-.main-form button:hover{opacity:1;}
+.main-form button:hover{opacity:1; transform: scale(1.1);}
 
 .p1-text{
     vertical-align: top;
@@ -124,6 +125,7 @@
     border-width: 5px;
     border-radius: 20px;
     border-color: rgba(0, 0, 0, 0);
+    transition: ease-in 0.15s;
 }
 .link-title:visited{
     color: black;
@@ -131,6 +133,19 @@
 .link-title:hover{
     background-color: black;
     color: white;
+    transition: ease-in 0.15s;
 }
+
+.text-area{
+    padding: 4%;
+}
+.text-area h3{
+    font-size: 250%;
+}
+.text-area p{
+    font-size: 120%;
+}
+
+
 
 
